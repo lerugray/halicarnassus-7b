@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HALICARNASSUS: Herodotus of Halicarnassus, rendered in seven billion parameters</title>
+
+<link rel="canonical" href="https://lerugray.github.io/halicarnassus-7b/">
+
+<!-- Open Graph -->
+<meta property="og:type"        content="website">
+<meta property="og:url"         content="https://lerugray.github.io/halicarnassus-7b/">
+<meta property="og:title"       content="HALICARNASSUS">
+<meta property="og:description" content="Herodotus of Halicarnassus (c. 484 to 425 BC): the curious traveller of the Elect, the Father of History in his own recorded text.">
+<meta property="og:image" content="https://lerugray.github.io/halicarnassus-7b/assets/og-image.png">
+<meta property="og:image:secure_url" content="https://lerugray.github.io/halicarnassus-7b/assets/og-image.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="HALICARNASSUS, a Herodotus of Halicarnassus register model (7B)">
+
+<!-- Twitter -->
+<meta name="twitter:card"        content="summary_large_image">
+<meta name="twitter:url"         content="https://lerugray.github.io/halicarnassus-7b/">
+<meta name="twitter:title"       content="HALICARNASSUS">
+<meta name="twitter:description" content="Herodotus of Halicarnassus (c. 484 to 425 BC): the curious traveller of the Elect, the Father of History in his own recorded text.">
+<meta name="twitter:image" content="https://lerugray.github.io/halicarnassus-7b/assets/og-image.png">
+
+<link rel="stylesheet" href="./styles.css?v=1">
+</head>
+<body>
+
+<div class="starfield" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============================================================
+     HEADER
+     ============================================================ -->
+<header class="site-header">
+  <div class="void-rule-top" aria-hidden="true"></div>
+  <div class="void-rule-thin" aria-hidden="true"></div>
+
+  <div class="header-inner">
+    <span class="lab-crumb">
+      Part of <a href="https://lerugray.github.io/the-elect/" target="_blank" rel="noopener">The Elect</a>, a one-person voice lab
+    </span>
+
+    <h1 class="persona-title">HALICARNASSUS</h1>
+
+    <span class="persona-epithet">Herodotus of Halicarnassus, rendered in seven billion parameters</span>
+    <span class="persona-register">THE FATHER OF HISTORY &middot; c. 484&ndash;425 BC &middot; the curious traveller &middot; runs on your machine</span>
+
+    <div class="header-void-rule" aria-hidden="true">
+      <span class="void-line"></span>
+      <span class="void-ornament">&#x25A0; CUSTOM IS KING OVER ALL &#x25A0;</span>
+      <span class="void-line"></span>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============================================================
+       PORTRAIT + CAPTION
+       ============================================================ -->
+  <section class="portrait-section">
+    <div class="container">
+      <div class="portrait-grid">
+
+        <div class="portrait-frame" aria-label="ASCII portrait of Herodotus of Halicarnassus">
+          <pre class="ascii-portrait" aria-hidden="true" id="asciiPortrait">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@%%%%%%%%%%%%%%%%%@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@%@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@%%@%%%%@%%%%%%%%%%%%%%%::::--..-.::-::::%%%%%%%%%%%%%%%%%%%@@%%@@@@@@@@@@@@@@@@
+@@@@@@@@@@@%@@%%@@%%%%%%%%%%%%%%%%%%%%%%%:-::-::::::-.:::::-:----%%%%%%%%%%%%%%%%%%%%%%%%%%%@@%@@%@@
+@@%@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%=:------:-::::::.:.:::-:-:::-:-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#--=-::.-:::=::..:-...:.::-:-+::----%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%--::-:::::..:........:::::-----+-:*=-==%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#-=::...-:..::...-..:.-+++=-===-==+=++-=**%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%----:::::....:.--:..:::.:.:::--:==-*+++=-*##%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%##=----=====--::..::::--::::-:------***+=+--=#*##%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%######:---===:::......::::::::-::---======*+****==**#*#%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%#%##%%##%############-:::---::::::.:-:-::::::::::::--=====+++**+*#**+**####%%%##%%%%#%%%%%%%%%%
+#########################--:-=-+--:-::::----::::::::::::----===+***#*********#############%######%%%
+########################-:--=:-+--::::-::=-:--=-===-===-:-===++*###****++*#***####################%%
+########################-:-----*--:::.::-:::-::::-:-::---=====+**####***++*#*#######################
+########################----:==+--::.:::::::..::-:::::=========+**#####+++*#*#######################
+#######################*=::-----:::::::.:::-----:--:---=-=-=+==+*####*#*++##########################
+########################*::==--:::-:-==-::--=-=+-==---=+++*#########*#****#%########################
+##############***#*******=-=*--=--=+++::-+##***-+++=*#####**+*#######***#*%#########################
+######********************++*+--:-+*+-===**#*#*:-=+*######*+**#######**#%%*#########################
+*****************************-:--:::--:--:=*++-...-+#####*=:-+#######*#*#******#**##*#*#############
+*****************************-:--:::--=+++++::::::-*****++++**#***###**##************#******###**###
+*****************************:::--:----==*=.::::::-**++======++=+*###***#***************************
+*****************************:+:-=-------:::::::::-***+=-----=-=+#####******************************
+******************************-:-==-=---:::::-:---=*##*+=----==+#######*****************************
+******************************-:=--====--:--::.:--=+**++-----=+*#######*****************************
+******************************:--:--===-:=*=-----=-=##%#====++**#######*****************************
+******************************--=:--:---++:.:**====#%%%#*+++**#*#*#**##*****************************
+******************************=-=:::----=:..::.-########+==+****+*#*##******************************
+******************************:=--:::--:::.:--::***###***+*+=+==++***#******************************
+*****************************+-:---:::::.:+**#%%##%%%#*****=-*=:-+=###******************************
+*****************************-=-=:-::..:.:+#+::---==+**%#*+++*+-+-*###******************************
+****************************-====:.:=-...---.:=+*+********+**=-=**##*#******************************
+***********************=:::::-==:-::::---::+.:-:::====++++++==*=*##**#******************************
+*******************::::::::::::--::-:.:...:-:..:----:--:=-=+=***##**%#%#****************************
+*****************::.:::::::::::----.--:-:::-::::------::::=#*+**###**##%%%##************************
+*****************:::::::-::::::::::+==:+------===--=-:--===**+++****%########***********************
+*****************:::::::::.::::::---=*:+++****+=*=+++:-=-:--##*****##########***********************
+****************=::.:::::::.:.:::-**+=.==------=++*++--.-==-+*#**############***********************
+****************-:::::.::.:::..::::*+++==-:::-+=+*++-:+=:=-=*#*#%#############**********************
+****************::::::..:.::::::-:---+++-:-+******++----=++*+##*#############*#*********************
+****************::::....:.::.:::::-=**+====+****+***-=+====***###############*#**********#**#*##*##*
+****************::::::::::::.::::---+*#-*++***+**#*+-==-=+***+#############*##******################
+****************.:::::.:::::::::--::-+**=*#****++**+=++++**#+##############****#####################
+****************.::::::....:::::-------=--+******%*++++*****############******+*####################
+****************:::.::::::::::-------::::+**+*++*#***++++**#########***++++==++=##########%#%##%%###
+****************::.:.:.:::::::------------++++++####*+++++***#*******++=========##%%%%%%%%%%%%%%%%%%
+****************...:::::---::-------:::::::+***####***#******#******+++==-----=-#%%%%%%%%%%%%%%%%%%%
+****************:::.:::---:---:---::::::::::--=****++==-==+*+****++++==------=--=%%%%%%%%%%%%%%%%%%%
+***************=-:.:::----:::-:-:::::::::::::--------::::----=========--------===%%%%%%%%%%%%%%%%%%%
+***************:::.::-:::-:-::::::::::::::::::----::.:::::::-:-----------:------=%%%%%%%%%%%%%%%%%%%
+***************:::::--:---::::::::::::::::::::-::::...::::-:-:-:--:-----------=-=%%%%%%%%%%%%%%%%%%%
+***************::::--:--:-::--::::::::.::::::::::::...::::::::::::::::----:------%%%%%%%%%%%%%%%%%%%
+***************-:----------:::::::::::::-:::::::::.....:::::::-::-:::----::::----%%%%%%%%%%%%%%%%%%%
+***************::-=------:-:::::.:::::::--:::::-.:.:::::::::::-:-:::::-::-:------%%%%%%%%%%%%%%%%%%%
+***************--=-=-----::::::::::::::-::::::::-:::::::::::----::-:::----:------+%%%%%%%%%%%%%%%%%%
+***************----=----=:::::::::::::::::::--:::::::::::::::-:-:::-::-:-:------==%%%%%%%%%%%%%%%%%%
+***************----==--:---::::::::::-:::-:::::::::::::::::-::-:::::::----:--:--=-%%%%%%%%%%%%%%%%%%
+**************+-=--::--:----:-::::-:::::::::::::-:::::::-::--:::-:::::-----------+%%%%%%%%%%%%%%%%%#
+**************==---:-:-:--::::::::--::::-::::-:::-::::--::---:::--::::------=--==+%%%%%%%%%%%%%%%%%%
+**************===------:::---:-:--::::::-:---::---::::::::--:-:--:-:-:---=------==%%%%%%%%%%%%%%%%##
+**************=----------=--::-------:-------:---:-::::--::::--:-:---------------=%%%%%%%%%%%%%%#%##
+**************----=+-----===-----=:----=-----=-::-:::::::--=:---:-:-----------=-=+%%%%%%%%%%%%%%####
+**************=----=---=--=:-=--:---:--:-----:-==--:-------:-------=-------=----==%%%%%%%%%%%%%%####
+**************======--==--=-:-==----:-:-=----:==-:---------:---=:--==-----------=+%%%%%%%%%%%%####**
+**************=====+=--+=+===-+====+:======---==+-:----------==----======-===--===%%%%%%%%%%###*****
+************+++====+===+========-*+==-------==:::-----:=--==--=--===-=======-==+=+%%%%%%%###********
+**********+**+=+=+++=+=======-=================---=-======-========+=++====+====++%%%%###***********
+************+*+++**+*++++==+++=====++==+==========================++=++=++++++===*%%###**+++*++++***
+***********++**@@%#******+*+++****+++++++*++++++==++++++++++++++++*****#**++***%%%#*++**************
+*+*****++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*+*******************
+++***+*+*++*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++**+***************</pre>
+        </div>
+
+        <div class="portrait-caption">
+          <span class="caption-tag">&#9654; VOICE MODEL / HERODOTUS</span>
+          <p class="caption-lead">
+            The inquirer who set out to keep the deeds of men from being
+            forgotten by lapse of time. Not a cold reckoner but a
+            <em>traveller</em>, who follows any marvel that delights him,
+            reports what he is told, and says plainly when he does not
+            believe it.
+          </p>
+          <p class="caption-meta">
+            The author's own text: trained on a single public-domain translation
+            of The Histories (Macaulay, 1890). The voice is digressive,
+            wonder-filled, ethnographic. It is Herodotus in his own words, not a
+            reconstruction.
+          </p>
+          <div class="link-grid" style="margin-top:0.5rem;">
+            <a href="https://huggingface.co/lerugray/halicarnassus-7b" class="link-btn" target="_blank" rel="noopener">
+              <span class="link-icon">&#8967;</span> Weights on Hugging Face
+            </a>
+            <a href="https://github.com/lerugray/halicarnassus-7b" class="link-btn secondary" target="_blank" rel="noopener">
+              <span class="link-icon">&#8967;</span> Repo on GitHub
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       THE INQUIRY (terminal hero)
+       ============================================================ -->
+  <section class="oracle-section">
+    <div class="container">
+      <h2 class="section-heading">
+        <span class="heading-rule"></span>
+        <span>THE INQUIRY</span>
+        <span class="heading-rule"></span>
+      </h2>
+      <p class="section-sub">A demo of saved sample outputs, not a live prompt. Real generations from the model.</p>
+
+      <div class="oracle-terminal" id="oracleTerminal">
+        <div class="terminal-bar">
+          <span class="terminal-label">HERODOTUS &middot; halicarnassus:latest</span>
+          <div class="terminal-nav">
+            <button class="nav-btn" id="prevBtn" aria-label="Previous answer">&#9664;</button>
+            <span class="oracle-counter" id="oracleCounter">1 / 1</span>
+            <button class="nav-btn" id="nextBtn" aria-label="Next answer">&#9654;</button>
+          </div>
+        </div>
+        <div class="oracle-body">
+          <div class="oracle-prompt" id="oraclePrompt">
+            Loading sample inquiries...
+          </div>
+          <div class="oracle-text" id="oracleText">
+            (samples load from assets/samples.json)<span class="oracle-cursor" aria-hidden="true"></span>
+          </div>
+        </div>
+        <button class="oracle-advance" id="advanceBtn">NEXT ANSWER &rarr;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- DISCLAIMER -->
+  <div class="accuracy-note">
+    <div class="container">
+      <p class="accuracy-note-text">A small language model speaks here. It invents freely: names, dates, sources, events. Read it for the voice, not the record, and check anything before you repeat it.</p>
+      <div class="persona-disclaimer">
+        <p><strong>This is not Herodotus, not an oracle, and not advice.</strong> It imitates the register of his writing, nothing more. It is an amateur instrument trained on a single translation of his book, and it gets things wrong.</p>
+        <p>Herodotus reports the customs, marvels, and prejudices of the ancient world as a 5th-century BC Greek understood them. The model speaks in that register: <span class="warn">it will voice the assumptions, credulities, and period attitudes of an ancient inquirer, and never break character to caution you.</span> <strong>Nothing it says is a factual claim about history, and nothing it says should be repeated as one.</strong> It exists to let a historical voice be run as an instrument, not as a source.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       ABOUT
+       ============================================================ -->
+  <section class="about-section">
+    <div class="container">
+      <h2 class="section-heading">
+        <span class="heading-rule"></span>
+        <span>WHAT IT IS</span>
+        <span class="heading-rule"></span>
+      </h2>
+
+      <div class="about-grid">
+        <div class="about-body">
+          <p class="lead">
+            HALICARNASSUS is a 7B language model tuned to speak in the
+            register of Herodotus of Halicarnassus, the inquirer whom later
+            men called the Father of History, who travelled to Egypt and
+            Babylon and the Scythian steppe to gather the deeds of men. It
+            runs locally via
+            <a href="https://ollama.com" target="_blank" rel="noopener">Ollama</a>.
+            No cloud. No API. No subscription.
+          </p>
+          <p class="basis-note">
+            The author's own text. Unlike the thinner figures in the series,
+            Herodotus wrote his own book. The model trains on a single
+            public-domain translation of The Histories (Macaulay, 1890),
+            narrative only, with the translator's apparatus stripped. There is
+            no constructed layer. It is not a reconstruction.
+          </p>
+          <p>
+            Digressive, wonder-filled, ethnographic. Herodotus cannot pass a
+            marvel without turning aside to tell of it, and he holds that
+            custom is king over all men: what is shameful to one people is
+            honourable to another. He is the curious traveller where the
+            <a href="https://lerugray.github.io/the-elect/#melian" target="_blank" rel="noopener">Melian</a>
+            voice (Thucydides) is cold analysis. He marvels at the Barbarian
+            rather than despising him, and he traces the long chains of cause
+            until a small quarrel grows into a great war.
+          </p>
+          <p class="about-footnote">
+            Licensed <code>CC-BY-NC-4.0</code>. Public-domain source material.
+            Weights and repo are live below. Part of
+            <a href="https://lerugray.github.io/the-elect/" target="_blank" rel="noopener">The Elect</a> voice lab
+            made by Ray Weiss.
+          </p>
+        </div>
+
+        <div class="about-stats">
+          <div class="stat-item">
+            <span class="stat-num">7B</span>
+            <span class="stat-label">parameters</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true">&middot;</div>
+          <div class="stat-item">
+            <span class="stat-num">local</span>
+            <span class="stat-label">runs on your iron</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true">&middot;</div>
+          <div class="stat-item">
+            <span class="stat-num">~425 BC</span>
+            <span class="stat-label">the Father of History</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true">&middot;</div>
+          <div class="stat-item">
+            <span class="stat-num">free</span>
+            <span class="stat-label">CC-BY-NC-4.0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       LINKS
+       ============================================================ -->
+  <section class="links-section">
+    <div class="container">
+      <h2 class="section-heading">
+        <span class="heading-rule"></span>
+        <span>OBTAIN &amp; RUN</span>
+        <span class="heading-rule"></span>
+      </h2>
+
+      <div class="link-grid">
+        <a href="https://huggingface.co/lerugray/halicarnassus-7b" class="link-btn" target="_blank" rel="noopener">
+          <span class="link-icon">&#8967;</span> Weights on Hugging Face
+        </a>
+        <a href="https://github.com/lerugray/halicarnassus-7b" class="link-btn secondary" target="_blank" rel="noopener">
+          <span class="link-icon">&#8967;</span> GitHub repo
+        </a>
+        <a href="https://lerugray.github.io/the-elect/" class="link-btn elect" target="_blank" rel="noopener">
+          <span class="link-icon">&#x25A0;</span> The Elect &middot; voice lab
+        </a>
+      </div>
+
+      <p class="license-note">
+        License: <code>CC-BY-NC-4.0</code>. Public-domain source material; weights released, corpus rebuildable from the cited translation.
+        Attribution: Ray Weiss / The Elect.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       METHOD
+       ============================================================ -->
+  <section class="method-section">
+    <div class="container">
+      <h2 class="section-heading">
+        <span class="heading-rule"></span>
+        <span>HOW IT WAS MADE</span>
+        <span class="heading-rule"></span>
+      </h2>
+
+      <div class="method-inner">
+        <div class="method-rows">
+          <div class="method-step">
+            <div class="step-num">01</div>
+            <div class="step-title">BASE MODEL</div>
+            <p>Qwen2.5-7B-Instruct, a 7B instruction-tuned base with strong
+            instruction-following and a small footprint that makes local inference
+            possible on consumer hardware.</p>
+          </div>
+          <div class="method-step">
+            <div class="step-num">02</div>
+            <div class="step-title">FINE-TUNING</div>
+            <p>A QLoRA fine-tune on the author's own text: a single public-domain
+            translation of The Histories (Macaulay, 1890), narrative only, with the
+            translator's preface and footnote scholarship stripped. About 1,559
+            passages. The target register is digressive, wonder-filled, ethnographic.
+            Corpus rebuildable from the cited source.</p>
+          </div>
+          <div class="method-step">
+            <div class="step-num">03</div>
+            <div class="step-title">DEPLOYMENT</div>
+            <p>Quantized to GGUF (Q5_K_M) for local inference via Ollama. Runs on CPU
+            or consumer GPU. The evals test voice fidelity: the model should
+            sound like the traveller at the marvel, not a textbook about him.</p>
+          </div>
+        </div>
+        <div class="method-stack">
+          <span class="stack-label">Stack</span>
+          <div class="stack-items">
+            <span class="stack-item">Qwen2.5-7B</span>
+            <span class="stack-item">QLoRA</span>
+            <span class="stack-item">Unsloth</span>
+            <span class="stack-item">Ollama</span>
+            <span class="stack-item">GGUF Q5_K_M</span>
+            <span class="stack-sep">&middot;</span>
+            <span class="stack-withheld">Macaulay 1890, public domain</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-sigil">&#x25A0; THE ELECT &#x25A0;</div>
+      <p class="footer-note">
+        HALICARNASSUS is a voice model, not Herodotus and not a factual source.
+        The register it channels is his own, but the pronouncements are
+        generated, and they err. Nothing it says should be repeated as history.
+      </p>
+      <div class="footer-links">
+        <a href="https://lerugray.github.io/the-elect/" class="footer-link" target="_blank" rel="noopener">The Elect</a>
+        <span class="footer-sep">&middot;</span>
+        <a href="https://huggingface.co/lerugray/halicarnassus-7b" class="footer-link" target="_blank" rel="noopener">Hugging Face</a>
+        <span class="footer-sep">&middot;</span>
+        <a href="https://github.com/lerugray/halicarnassus-7b" class="footer-link" target="_blank" rel="noopener">GitHub</a>
+        <span class="footer-sep">&middot;</span>
+        <span class="footer-link" style="color:var(--text-muted)">CC-BY-NC-4.0</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Answer player
+// Loads from assets/samples.json; falls back to 1 inline
+// entry if fetch fails (offline / file:// / no server)
+
+const INLINE_ORACLES = [
+  {
+    prompt: "Why does the Nile flood in summer, when other rivers are low?",
+    text: "Of this the Egyptians could tell me nothing, and I am left to my own conjecture."
+  }
+];
+
+let oracles = [...INLINE_ORACLES];
+let currentIndex = 0;
+
+const promptEl  = document.getElementById('oraclePrompt');
+const textEl    = document.getElementById('oracleText');
+const counterEl = document.getElementById('oracleCounter');
+const prevBtn   = document.getElementById('prevBtn');
+const nextBtn   = document.getElementById('nextBtn');
+const advanceBtn = document.getElementById('advanceBtn');
+
+function updateCounter() {
+  counterEl.textContent = (currentIndex + 1) + ' / ' + oracles.length;
+}
+
+function escapeHtml(str) {
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function showOracle(idx) {
+  var o = oracles[idx];
+  textEl.classList.add('fading');
+  setTimeout(function() {
+    promptEl.textContent = o.prompt;
+    textEl.innerHTML = escapeHtml(o.text) +
+      '<span class="oracle-cursor" aria-hidden="true"></span>';
+    textEl.classList.remove('fading');
+    updateCounter();
+  }, 240);
+}
+
+prevBtn.addEventListener('click', function() {
+  currentIndex = (currentIndex - 1 + oracles.length) % oracles.length;
+  showOracle(currentIndex);
+});
+
+nextBtn.addEventListener('click', function() {
+  currentIndex = (currentIndex + 1) % oracles.length;
+  showOracle(currentIndex);
+});
+
+advanceBtn.addEventListener('click', function() {
+  currentIndex = (currentIndex + 1) % oracles.length;
+  showOracle(currentIndex);
+});
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'ArrowRight') nextBtn.click();
+  if (e.key === 'ArrowLeft')  prevBtn.click();
+});
+
+// Load full sample set from JSON
+fetch('./assets/samples.json')
+  .then(function(r) { return r.json(); })
+  .then(function(data) {
+    if (Array.isArray(data) && data.length > 0) {
+      var valid = data.filter(function(d) {
+        return d && d.text && d.text.trim().length > 0 &&
+               d.text.indexOf('[ERR]') === -1 &&
+               d.text.indexOf('__SAMPLES_PLACEHOLDER__') === -1;
+      });
+      if (valid.length > 0) {
+        oracles = valid;
+        currentIndex = 0;
+        showOracle(0);
+        updateCounter();
+      }
+    }
+  })
+  .catch(function() { /* offline / file:// use inline fallback silently */ });
+
+// Init
+showOracle(0);
+updateCounter();
+
+// ASCII portrait, load from assets file
+fetch('./assets/halicarnassus-ascii.txt')
+  .then(function(r) { return r.text(); })
+  .then(function(txt) {
+    document.getElementById('asciiPortrait').textContent = txt;
+  })
+  .catch(function() {
+    /* offline / file:// keep the inline portrait already in the <pre> */
+  });
+
+</script>
+
+</body>
+</html>

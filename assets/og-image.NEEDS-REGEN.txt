@@ -1,0 +1,6 @@
+og-image.png NEEDS REGENERATION.
+
+The 1200x630 og-image.png was not created (cannot fabricate a binary PNG). Regenerate it by
+rendering assets/og-card.html (reskinned for halicarnassus, present in this dir) at 1200x630
+and screenshotting to assets/og-image.png, the same way chaeronea's was produced. The
+index.html OG/twitter meta already points at assets/og-image.png.
